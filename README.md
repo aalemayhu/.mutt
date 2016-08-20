@@ -1,0 +1,2 @@
+# .mutt
+email configuration files
