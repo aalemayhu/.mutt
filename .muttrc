@@ -34,9 +34,9 @@ set postponed   = "+[Gmail]/Drafts"
 set signature="~/.signature"
 set sort=threads
 set sort_aux=last-date-received
-source ~/.mutt/colors
-source ~/.mutt/keybindings
-source ~/.mutt_files/gpg.rc
+source ~/.mutt/.colors
+source ~/.mutt/.keybindings
+source ~/.mutt/.gpg.rc
 unset record
 
 set query_command="goobook query %s"
