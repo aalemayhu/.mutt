@@ -1,11 +1,9 @@
 set from = "alexander@alemayhu.com"
 set realname = "Alexander Alemayhu"
 
-set smtp_url = "smtp://alexander@alemayhu.com@smtp.gmail.com:587/"
-source "gpg -d ~/.mutt/passwords.gpg |"
-set imap_user = "alexander@alemayhu.com"
+set sendmail = /usr/bin/msmtp
 
-set folder      = "imaps://imap.gmail.com:993"
+set folder      = "~/Mail"
 set spoolfile = "+INBOX"
 set postponed   = "+[Gmail]/Drafts"
 
