@@ -15,7 +15,7 @@ ignore "DKIM-Signature:"
 ignore "DomainKey-Signature:"
 mailboxes +INBOX
 set auto_tag = yes
-set editor = "vi"
+set editor="vim"
 set hostname = gmail.com
 set mail_check = 120
 set mbox        = "+[Gmail]/All Mail"
