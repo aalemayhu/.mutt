@@ -3,7 +3,7 @@ set realname = "Alexander Alemayhu"
 
 set sendmail = /usr/bin/msmtp
 
-set folder      = "~/Mail"
+set folder      = "~/Mail/Gmail"
 set spoolfile = "+INBOX"
 set postponed   = "+[Gmail]/Drafts"
 
