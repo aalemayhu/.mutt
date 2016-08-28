@@ -7,10 +7,6 @@ set folder      = "~/Mail/Gmail"
 set spoolfile = "+INBOX"
 set postponed   = "+[Gmail]/Drafts"
 
-set header_cache=~/.mutt/cache/headers
-set message_cachedir=~/.mutt/cache/bodies
-set certificate_file=~/.mutt/certificates
-
 alternative_order text/plain text/html *
 auto_view text/html
 hdr_order Date From To Cc
