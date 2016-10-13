@@ -31,7 +31,7 @@ set pgp_sign_as = 756753E5
 set pgp_timeout = 3600
 set timeout=15
 set postponed   = "+[Gmail]/Drafts"
-set signature="~/.signature"
+set signature="~/.mutt/.signature"
 set sort=threads
 set sort_aux=last-date-received
 source ~/.mutt/colors
