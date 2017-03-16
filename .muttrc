@@ -1,17 +1,11 @@
 set from = "alexander@alemayhu.com"
 set realname = "Alexander Alemayhu"
 
-set smtp_url = "smtp://alexander@alemayhu.com@smtp.gmail.com:587/"
-source "gpg -d ~/.mutt/passwords.gpg |"
-set imap_user = "alexander@alemayhu.com"
+set sendmail = /usr/bin/msmtp
 
-set folder      = "imaps://imap.gmail.com:993"
+set folder      = "~/Mail/Gmail"
 set spoolfile = "+INBOX"
 set postponed   = "+[Gmail]/Drafts"
-
-set header_cache=~/.mutt/cache/headers
-set message_cachedir=~/.mutt/cache/bodies
-set certificate_file=~/.mutt/certificates
 
 alternative_order text/plain text/html *
 auto_view text/html
@@ -21,7 +15,7 @@ ignore "DKIM-Signature:"
 ignore "DomainKey-Signature:"
 mailboxes +INBOX
 set auto_tag = yes
-set editor = "vi"
+set editor="vim"
 set hostname = gmail.com
 set mail_check = 120
 set mbox        = "+[Gmail]/All Mail"
@@ -42,3 +36,4 @@ unset record
 set query_command="goobook query %s"
 macro index,pager a "<pipe-message>goobook add<return>" "add sender to google contacts"
 bind editor <Tab> complete-query
+set editor='vim'
