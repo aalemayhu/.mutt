@@ -39,3 +39,5 @@ bind editor <Tab> complete-query
 set editor='vim'
 
 set message_cachedir = "/home/a/.cache/mutt"
+
+source ~/.mutt/dracula.muttrc
